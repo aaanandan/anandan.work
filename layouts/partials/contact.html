@@ -5,21 +5,51 @@
             <h2>{{ .Site.Data.homepage.contact.title }}</h2>
             <div class="row pt-2">
                 <div class="col-12 col-lg-7">
-                    <form action="{{ .Site.Data.homepage.contact.form.action }}" method="{{ .Site.Data.homepage.contact.form.method }}">
+
+                    <!-- <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="fa67a4d3-5f72-4c06-a245-13ffcd545ce0">
+                        <input type="text" name="name" required>
+                        <input type="email" name="email" required>
+                        <textarea name="message" required></textarea>
+                        <div class="h-captcha" data-captcha="true"></div>
+                        <button type="submit">Submit Form</button>
+                    </form> -->
+                    <script src="https://web3forms.com/client/script.js" async defer></script>
+
+                    <form action="{{ .Site.Data.homepage.contact.form.action }}"
+                        method="{{ .Site.Data.homepage.contact.form.method }}">
+                        <input type="hidden" name="access_key" value="fa67a4d3-5f72-4c06-a245-13ffcd545ce0">
+
                         <div class="row">
                             <div class="col-12 col-sm-6">
-                                <input type="text" name="" id="full_name"
-                                       placeholder="{{ .Site.Data.homepage.contact.form.full_name }}"/>
+                                <input type="text" name="name" id="name" required
+                                    placeholder="{{ .Site.Data.homepage.contact.form.full_name }}" />
                             </div>
                             <div class="col-12 col-sm-6">
-                                <input type="text" name="" id="email"
-                                       placeholder="{{ .Site.Data.homepage.contact.form.email }}"/>
+                                <input type="text" name="email" id="email" required
+                                    placeholder="{{ .Site.Data.homepage.contact.form.email }}" />
                             </div>
                         </div>
                         <div class="row pt-4">
                             <div class="col-12">
-                                <textarea name="" id="message"
-                                          cols="30" rows="3" placeholder="{{ .Site.Data.homepage.contact.form.message }}"></textarea>
+                                <textarea name="message" id="message" cols="30" rows="3" required
+                                    placeholder="{{ .Site.Data.homepage.contact.form.message }}"></textarea>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12 col-sm-6">
+                                <input type="text" name="phone" id="phone" required
+                                    placeholder="{{ .Site.Data.homepage.contact.form.phone }}" />
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="text" name="whatsapp" id="whatsapp"
+                                    placeholder="{{ .Site.Data.homepage.contact.form.whatsapp }}" />
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+
+                            <div class="col-12 col-sm-6">
+                                <div class="h-captcha" data-captcha="true"></div>
                             </div>
                         </div>
                         <div class="row pt-4">
@@ -30,16 +60,24 @@
                                 </button>
                             </div>
                         </div>
+
                     </form>
                 </div>
                 <div class="col-12 col-lg-5 contact__info">
                     <h4>{{ .Site.Data.homepage.contact.phone.title }}</h4>
                     <span>{{ .Site.Data.homepage.contact.phone.number }}</span>
+
                     <h4>{{ .Site.Data.homepage.contact.email.title }}</h4>
                     <span>{{ .Site.Data.homepage.contact.email.email | safeHTML }}</span>
                     <h4>{{ .Site.Data.homepage.contact.address.title }}</h4>
                     <span>{{ .Site.Data.homepage.contact.address.address | safeHTML }}</span>
+                    <div class="pt-4">
+                        <a aria-label="Chat on WhatsApp" href="https://wa.me/919445134411"> <img alt="Chat on WhatsApp"
+                                src="img/who-am-i/WhatsAppButtonGreenSmall.png" />
+                    </div>
+                    </a>
                 </div>
+
             </div>
         </div>
     </div>

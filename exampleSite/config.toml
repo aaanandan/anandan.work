@@ -1,4 +1,4 @@
-baseURL = "https://raditian-hugo.radity.com/"
+baseURL = "https://aaanandan.github.io/raditian-free-hugo-theme"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 
@@ -30,10 +30,10 @@ theme = "raditian-free-hugo-theme"
   URL = "#about"
   weight = 2
 
-  [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
-  weight = 3
+  #[[menu.header]]
+  #name = "Portfolio"
+  #URL = "#portfolio"
+  #weight = 3
 
   [[menu.header]]
   name = "Contact"
@@ -46,10 +46,10 @@ theme = "raditian-free-hugo-theme"
   URL = "#about"
   weight = 2
 
-  [[menu.footer]]
-  name = "Portfolio"
-  URL = "#portfolio"
-  weight = 3
+  #[[menu.footer]]
+  #name = "Portfolio"
+  #URL = "#portfolio"
+  #weight = 3
 
   [[menu.footer]]
   name = "Contact"
@@ -59,16 +59,19 @@ theme = "raditian-free-hugo-theme"
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+#sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+
+  sections = ["showcase", "about", "education", "experience",  "contact"]
+
 
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
   [params.logo]
-    text1 = "Andreas"
-    text2 = "Ellure"
+    text1 = "Anandan"
+    text2 = "work"
 
   [params.footer]
-      copyright = "© Raditian. All rights reserved."
+      copyright = "© Anandan.work All rights reserved."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
