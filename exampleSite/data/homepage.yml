@@ -1,0 +1,249 @@
+# homepage
+homepage:
+  head:
+    title: "Anandan.Work"
+# showcase
+showcase:
+  enable: true
+  title: "Welcome, to Anandan.work"
+  subtitle: "Free Custom Mobile App For Business"
+  description: "Mobile app and software tools development service, Are you able to justify your mobile app or software requierment? Then, get it developed free! 
+  see how your ideas works!! No Pesky contracts, absolutely Free for everyone!!"
+  
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://radity.com/en/contact/"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/anandan-balasupramanian-7256327/"
+
+    - icon: "github"
+      URL: "https://github.com/aaanandan"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/anandanbs"
+
+    # - icon: "dribbble"
+    #   URL: "https://dribbble.com/radity"
+
+    # - icon: "behance"
+    #   URL: "https://www.behance.net/radity-digital"
+
+    # - icon: "youtube"
+    #   URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
+
+    # - icon: "instagram"
+    #   URL: "https://www.instagram.com/teamradity/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/anandan.balasupramanian"
+
+    # - icon: "codepen"
+    #   URL: "#"
+
+    # - icon: "yelp"
+    #   URL: "https://www.yelp.com/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+I work as a Freelancer, Located in Chennai India. Interested in enabling local business with software apps and tools required. Yes, I am here to serve people with genuine need. Keep cool, stay in touch.
+    </p>
+    <p class="lead">
+    <b>Why Free?</b>  Mobile apps and software tools are vital for any business, making the development and implementation FREE, enabling innovative ideas and local business possible. The success you achieve is my fuel and fulfills what I am working for in my life.
+    
+    You can download my <a target="_blank" href="https://drive.google.com/file/d/1dzUMvxqNN6etzu5gARV_UXoyt4kuzWYp/view?usp=sharing">Profile</a>.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/anandan-balasupramanian-7256327/"
+  image:
+    x: "img/who-am-i/561409_3331702461265_363289925_n.jpg"
+    _2x: "img/who-am-i/561409_3331702461265_363289925_n.jpg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Madras"
+      year: "2001-2002"
+      degree: "M.Sc - Masters in Information Technology"
+
+    - university: "University of Madras"
+      year: "1998-2001"
+      degree: "B.Sc - Bachelor of Computer science"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 15+ years of experience building applications and tools required for business. I design & develop software apps to help businesses and improve people's lives."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/anandan-balasupramanian-7256327/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "https://drive.google.com/file/d/1dzUMvxqNN6etzu5gARV_UXoyt4kuzWYp/view?usp=sharing"
+
+  items:
+    - title: "Freelancer"
+      company: "Self Employed"
+      duration: "Mar 2022 - Till now"
+
+    - title: "Fullstack lead engineer"
+      company: "Photon"
+      duration: "Jan 2022 - Feb 2022"
+
+    - title: "Fullstack lead engineer"
+      company: "Cognizant"
+      duration: "8 years"
+
+    - title: "Consultant"
+      company: "Virtusa"
+      duration: "3 years"
+
+# Client & Work
+client_and_work:
+  title: "Clients & Works"
+  enable: true
+
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Radity Finance - UI Kit"
+      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/radity-finance.jpg"
+        _2x: "img/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "Swiss Fintech Website"
+      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/swissfintech.jpg"
+        _2x: "img/works/swissfintech@2x.jpg"
+      is_even: false
+
+    - title: "Robo Advisor"
+      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonials"
+  items:
+    - name: ""
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "https://api.web3forms.com/submit"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+    phone: "Phone"
+    whatsapp: "Whatsapp"
+
+  phone:
+    title: "Phone Number"
+    number: "+91 9445134411"
+  email:
+    title: "Email"
+    email: '<a href="mailto:anandan.bs@gmail.com">anandan.bs@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Anandan B<br />Tambaram, Chennai, India - 600059"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: true
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
