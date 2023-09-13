@@ -1,6 +1,6 @@
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 <!-- Google Tag Manager -->
 <script>
     (function (w, d, s, l, i) {
@@ -20,7 +20,12 @@
 </script>
 <!-- End Google Tag Manager -->
 <!-- endinject -->
-<title>{{ .Site.Data.homepage.head.title }}</title>
+<!-- {{ .Site.Data.homepage.head.title }} -->
+<title>Free Web and Mobile Apps Development | Anandan.work</title>
+<meta name="description"
+    content="With 15 years of experience in website building and mobile development, [Your Name] offers FREE custom mobile app and website development. No contracts, no hidden costs.">
+<meta name="keywords"
+    content="Custom mobile app, Website development, Freelance services, Mobile development, Free development, Idea exploration, Project assessment, Transparent, Innovative ideas">
 <style>
     /* Fade In animation triggering after font load or 3s timeout */
     .rad-fade-in {
@@ -213,5 +218,5 @@
 </style>
 
 {{ range .Site.Params.plugins.css }}
-<link rel="stylesheet" href="{{ .URL | absURL }}"/>
+<link rel="stylesheet" href="{{ .URL | absURL }}" />
 {{ end }}

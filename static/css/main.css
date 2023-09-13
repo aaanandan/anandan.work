@@ -12798,3 +12798,8 @@ textarea:focus {
         margin-top: -125px
     }
 }
+
+#about {
+    padding-top: 150px;
+    margin-top: -50px;
+}
