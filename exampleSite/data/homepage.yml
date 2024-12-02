@@ -1,14 +1,14 @@
 # homepage
 homepage:
   head:
-    title: "Free Web and Mobile Apps Development | Anandan.work "
+    title: "Free AI caplable - Mobile Apps, Web Apps and Desktop applications  | Anandan.work "
 # showcase
 showcase:
   enable: true
-  title: "Welcome to Anandan.work"
-  subtitle: "Where Your Ideas Come to Life for FREE!"
-  description: "Are you a business owner looking to bring your unique ideas to life through a custom mobile app or website? Look no further! 
-  With over 15 years of experience in website building and mobile development, Anandan.work is here to make your dreams a reality."
+  title: "AI-Powered Solutions for Your Business"
+  subtitle: "Your Ideas Come to Life FREE. Collaborate with us to develop innovative AI applications for mobile, web, and desktop. The first working version aligned with your requirements is free."
+  description: "Are you a business owner looking to bring your unique ideas to life through a custom AI mobile app or website?  RAG - Retrieval-Augmented Generation for Real-Time Generative AI, inpremisise GPT integration, custom tailored n8n workflows. speak to your documents. Look no further! 
+  With over 18 years of experience in website building and mobile development, Anandan.work is here to make your dreams a reality."
   
   image:
     alt: "Showcase keyboard and mouse image"
@@ -57,18 +57,14 @@ showcase:
 # about
 about:
   enable: true
-  title: "Who am I?"
-  content: '<p class="lead">
-I work as a Freelancer, Located in Chennai India. Interested in enabling local business with software apps and tools required. Yes, I am here to serve people with genuine need. Keep cool, stay in touch.
-    </p>
+  title: "About Us"
+  content: "<p class="lead"> At Anandan.work, we specialize in crafting AI-driven solutions tailored to your business needs. We collaborate to develop AI applications for mobile, web, and desktop platforms. RAG - Retrieval-Augmented Generation for Real-Time Generative AI, inpremisise GPT integration, custom tailored n8n workflows. speak to your documents. The initial development and User Acceptance Testing (UAT) phases are completely free of cost. Post-deployment, once your application goes live and meets your requirements, further enhancements and maintenance will be billed. Customers bear all infrastructure costs, including hosting and third-party services. we are  Located in Chennai India. Interested in enabling local business with AI and software apps and tools required. Yes, we am here to serve people with genuine need. Keep cool, stay in touch.</p>
     <p class="lead">
-    <b>Why Free?</b>  Mobile apps and software tools are vital for any business, making the development and implementation FREE, enabling innovative ideas and local business possible. The success you achieve is my fuel and fulfills what I am working for in my life.
-    
-    You can download my <a target="_blank" href="https://drive.google.com/file/d/1dzUMvxqNN6etzu5gARV_UXoyt4kuzWYp/view?usp=sharing">Profile</a>.
+    <b>Why Free?</b>  AI enabled Mobile apps and software tools are vital for any business, making the inital development and implementation FREE, enabling innovative ideas and local business possible. The success you achieve our fuel and expands our bussines in right way.
     </p>'
   button:
     icon: "icon-smile-fill"
-    btnText: "About Me"
+    btnText: "For Querries Contact"
     URL: "https://www.linkedin.com/in/anandan-balasupramanian-7256327/"
   image:
     x: "img/who-am-i/561409_3331702461265_363289925_n.jpg"
@@ -77,11 +73,11 @@ I work as a Freelancer, Located in Chennai India. Interested in enabling local b
 # offer
 offer:
   enable: true
-  title: "Free Custom Mobile App and Website Development"
-  content: "We understand that sometimes, it's hard to envision how your idea will work in the digital realm. That's why we're excited to offer you the opportunity to get your mobile app or website developed for FREE. 
+  title: "Free AI enabled Custom Mobile App and Website Development"
+  content: "We understand that sometimes, it's hard to envision how your idea will work in the digital realm. That's why we're excited to offer you the opportunity to get your AI mobile app or website developed for FREE. 
   <br/><b>Here's how it works:</b>
 <br/>
-<b>1. Idea Exploration:</b> Reach out to us with your idea for a mobile app or website. Whether it's a new business concept or an enhancement to your current operations, we're here to listen.
+<b>1. Idea Exploration:</b> Reach out to us with your idea for a AI RAG - Retrieval-Augmented Generation for Real-Time Generative AI, inpremisise GPT integration, custom tailored n8n workflows. speak to your documents.  mobile app or website. Whether it's a new business concept or an enhancement to your current operations, we're here to listen.
 <br/>
 <b>2. Initial Consultation:</b> We'll schedule a consultation to discuss your project. During this meeting, we'll dive deep into your vision, goals, and requirements. This step is crucial to ensure we understand your unique needs."
   steps : "<br/>
